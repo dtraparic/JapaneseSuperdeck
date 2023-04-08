@@ -1,0 +1,28 @@
+This deck focuses on Kanjis and is based on the Heisig's book *Remembering the Kanjis* principles. 
+
+This deck of mine is a fusion between:
+- This deck: [Heisig's remembering the kanji - 6th edition - All In One](https://ankiweb.net/shared/info/50011729) (cards with very complete informations about the kanji) 
+- and this deck: [RRTK Recognition Remembering The Kanji v2](https://ankiweb.net/shared/info/1635663511) which includes stories with kanjis displayed in parenthesis, which is way more visual. 
+
+Having visuals in cards can help because not everyone in these RTK decks community use the exact same words for the same kanjis etc. This can also help if you skipped some cards along the deck or if you learn the cards in a different order.
+
+My way of using this deck: 
+- If the card you are seeing is flagged as JLPT N5 or N4, I learn at least one reading of the kanji (kunyomi in green or onyomi in orange), trying to learn the most common one. 
+- Don't bother learning all the examples given at the bottom, they're here for examples, to see which reading you should learn, or if you see a word you already know, you can remember this kanji better, etc.
+Don't bother learning all the meanings too. All the meanings are here only when they are too close kanjis in meaning to differenciate them, or when the story does not fit the keyword displayed.
+
+In some cases, I skip kanjis ("suspending the note"), because I know they will be difficult to remember for me. Don't be too mad at you if you do, this can happen for me when:
+- The kanji has a lot of meanings possible, very different from one another.
+-  The frequency displayed is more than 2000 (meaning that this kanji is not among the 2000 most frequent kanjis in japanese newspapers)
+- The story is hard to remember, because doesn't fit well with the kanji, or because I already have a similar story on a different kanji
+- The card says "Used in : None", so we can be sure we won't need to know this kanji for future kanjis.
+
+
+What I've added to the fusion of these decks: 
+- A field "Used In", it counts every future kanji that backlink to this actual kanji. I feel it's important to know "how important this kanji is to learn the future kanjis". For instance, we can see for the Kanji "next" (次) the field UsedIn equals "2 N3, 2 N1, 2 N0". It means knowing this Kanji will be useful for the stories of 2 JLPT-N3 Kanjis, 2 JLPT-N1 Kanjis, and 2 JLPT-N0 Kanjis. This has done by automatically by code, so I don't guarantee all the results to be exact.
+Also, I tried to add blue cards for primitives. These are characters that don't mean anything and that are not kanjis, but they are used in other kanjis, so the best is to link a mental picture to these primitives, so you can learn the other kanjis easier.
+
+If you don't like the story you are seeing, you can read the Heisig's original story by clicking the story.
+
+I'm only at 1000 kanjis learnt, many many things still need to be fixed, and I was a bit worried to share my deck before finishing it. But I feel it will never be truly finished.
+
