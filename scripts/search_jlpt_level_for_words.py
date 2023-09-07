@@ -19,28 +19,42 @@ i_rand = [2580, 788, 667, 630, 93, 1955, 2121, 2871, 2480, 1686]
 kanjis = ['槃', '奨', '悟', '店', '丁', '講', '懇', '歎', '藷', '鋳']
 kanjis = ['丁']
 
+def get_common_words_from_kanji(kanji: str):
+    return Word.request(f'#common *{kanji}*')
+
+def get_jlpt_level_from_word(word: str):
+    pass
+
+r = Word.request('#common 装置')
+r = Word.request('#common *訳*')
+print(r.data)
+
+# print(r)
+exit()
 # r = Word.request('槃')
 # # r = Word.request('誰')
 r = Word.request('夢')
-print(r)
-print(len(r.data), r.data)
-print('Les wordconfig')
-print(r.data[0])
-print(r.data[1])
-print(r.data[2])
-print(r.data[3])
-print(r.data[4])
-print(r.data[5])
-print(r.data[6])
-print(r.data[7])
-print(r.data[8])
-print(r.data[9])
-print()
-print(r.data[0])
-print()
-print(r.data[0].senses)
-print(r.data[0].slug)
-exit()
+# print(r)
+# print(len(r.data), r.data)
+# print('Les wordconfig')
+# print(r.data[0])
+# print(r.data[1])
+# print(r.data[2])
+# print(r.data[3])
+# print(r.data[4])
+# print(r.data[5])
+# print(r.data[6])
+# print(r.data[7])
+# print(r.data[8])
+# print(r.data[9])
+# print()
+# print(r.data[0])
+# print()
+# print(r.data[0].senses)
+# print(r.data[0].slug)
+# def from
+
+# exit()
 
 print("All slugs : ")
 growing_dic_common_words = {}
@@ -50,11 +64,12 @@ for kanji in kanjis:
     r = Word.request(kanji)
     for i_word in range(len(r.data)):
         word = r.data[i_word]
+        print(word)
         if len(word.slug) > 10:
             print(f"{kanji}: Word without reading, Skipped")
         else:
             jlpt = [jlpt_str[-1] for jlpt_str in word.jlpt]
-            print(jlpt)
+            # print("jlpt", jlpt)
             commonest_reading_i = word.jlpt
             # growing_dic_common_words[kanji] = {'jlpt': }
             print(kanji, word.slug, word.jlpt, word.is_common)
